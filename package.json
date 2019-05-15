@@ -1,0 +1,27 @@
+{
+  "name": "bamazon_db.io",
+  "version": "1.0.0",
+  "description": "Homework - MySQL_db",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "init": "^0.1.2",
+    "inquirer": "^6.3.1",
+    "mysql": "^2.17.1",
+    "node": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amorales944/bamazon_db.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amorales944/bamazon_db.io/issues"
+  },
+  "homepage": "https://github.com/amorales944/bamazon_db.io#readme"
+}
