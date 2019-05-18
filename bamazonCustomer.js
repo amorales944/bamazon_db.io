@@ -41,31 +41,52 @@ inquirer
 
 ])
 .then(function(user){
-// if(user.name === ){
-  console.log("==============================================");
-  console.log("You picked ITEM ID- " + user.item_id + " QUANTITY- " + user.quantity)
-  console.log("==============================================");
+//   switch (user.action) {
+//     case "1":
+//       console.log("==============================================");
 
-// }
+      console.log("==============================================");
+      console.log("You picked ITEM ID- " + user.item_id + " QUANTITY- " + user.quantity)
+      console.log("==============================================");
+    //   break;
+
+    // case "2":
+    //   multiSearch();
+    //   break;
+
+    // case "3":
+    //   rangeSearch();
+    //   break;
+
+    // case "4":
+    //   songSearch();
+    //   break;
+
+    // case "5":
+    //   songAndAlbumSearch();
+    //   break;
+
+    //   case "6":
+    //     artistSearch();
+    //     break;
+
+    //   case "7":
+    //     multiSearch();
+    //     break;
+
+    //   case "8":
+    //     rangeSearch();
+    //     break;
+
+    //   case "9":
+    //     songSearch();
+    //     break;
+
+    //   case "10":
+    //     songAndAlbumSearch();
+    //     break;
+    // }
 
 
 })
 }
-
-
-// function mainSearch(){
-// inquirer.prompt({
-//     type: "input",
-//     item_id: "id",
-//     message: "Please input the ID of the product they would like to buy."
-//   }),
-//   .then(function(answer)){
-//     // const query = "SELECT";
-//     connection.query("SELECT item_id from bamazon_db.products;", function(err, res) {
-//       console.log(res);
-    
-//     // runSearch();
-//   });
-
-//   }
-// }
